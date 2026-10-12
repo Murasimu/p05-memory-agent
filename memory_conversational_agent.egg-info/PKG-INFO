@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: memory-conversational-agent
+Version: 1.0.0
+Summary: Memory-enabled agent: short-term buffer with compression, long-term vector recall, relevance scoring, cross-session sync
+Requires-Python: >=3.10
+Provides-Extra: demo
+Requires-Dist: openai>=1.40; extra == "demo"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"

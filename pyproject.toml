@@ -1,0 +1,13 @@
+[project]
+name = "memory-conversational-agent"
+version = "1.0.0"
+description = "Memory-enabled agent: short-term buffer with compression, long-term vector recall, relevance scoring, cross-session sync"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+demo = ["openai>=1.40"]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
